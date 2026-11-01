@@ -18,6 +18,7 @@
     <string name="pref_category__inputs">Hareketler ve Arama</string>
     <string name="summary__general_about">Xenci Launcher hakkında daha fazlası</string>
     <string name="about_base_info">Neo Launcher ve Launcher3 tabanlı</string>
+    <string name="about_base_source">Orijinal Neo Launcher (Temel)</string>
     <string name="summary__general_advanced">Dil, yedek, ayar arama</string>
     <string name="summary__general_notifications">Rozet sayısı, rozet rengi, hareketler</string>
     <string name="summary__general_search">Arama Sağlayıcısı, stil, simgeler</string>

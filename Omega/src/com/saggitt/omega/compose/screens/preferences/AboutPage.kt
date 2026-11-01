@@ -251,6 +251,11 @@ private val links = listOf(
         iconResId = R.drawable.ic_github,
         labelResId = R.string.about_releases,
         url = "https://github.com/Patr10on/Xenci-Launcher/releases"
+    ),
+    Link(
+        iconResId = R.drawable.ic_github,
+        labelResId = R.string.about_base_source,
+        url = "https://github.com/NeoApplications/Neo-Launcher"
     )
 )
 
@@ -272,6 +277,12 @@ private val contributors = listOf(
         descriptionRes = R.string.author_role,
         photoUrl = "https://avatars.githubusercontent.com/u/40302595",
         webpage = "https://github.com/machiav3lli"
+    ),
+    TeamMember(
+        name = R.string.contributor2,
+        descriptionRes = R.string.contributor_role,
+        photoUrl = "https://avatars.githubusercontent.com/u/69337602",
+        webpage = "https://github.com/nonaybay"
     )
 )
 

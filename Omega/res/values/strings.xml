@@ -505,6 +505,8 @@
     <string name="about_source_url" translatable="false">https://github.com/Patr10on/Xenci-Launcher</string>
     <string name="about_releases">Releases</string>
     <string name="about_releases_url" translatable="false">https://github.com/Patr10on/Xenci-Launcher/releases</string>
+    <string name="about_base_source">Original Neo Launcher (Base)</string>
+    <string name="about_base_source_url" translatable="false">https://github.com/NeoApplications/Neo-Launcher</string>
     <string name="category__about_licenses">License</string>
     <string name="license_gpl" translatable="false">GPLv3+</string>
     <string name="app_donate_url" translatable="false">https://github.com/Patr10on/Xenci-Launcher</string>

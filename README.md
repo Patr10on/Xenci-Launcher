@@ -71,8 +71,20 @@ The resulting APK will be generated at `build/outputs/apk/aospWithQuickstepOmega
 
 ---
 
-## 📜 Credits & License
+## 📜 Credits & Acknowledgments
 
-- Maintained and enhanced by **[Patr10on (Xenci)](https://github.com/Patr10on)**
-- Based on AOSP Launcher3, Lawnchair, and Neo Launcher by Saul Henriquez and contributors.
-- Licensed under the **GNU General Public License v3.0 (GPLv3)**.
+- **Enhanced & Maintained by:**
+  - **[Patr10on (Xenci)](https://github.com/Patr10on)** — Xiaomi hidden apps vault, biometric/PIN security, custom app lock, iOS navigation bar, and 16 KB page-size zero-native engine.
+
+- **Original Base Project & Developers:**
+  - **[Neo Launcher](https://github.com/NeoApplications/Neo-Launcher)** by **[Neo Applications](https://github.com/NeoApplications)**
+  - **[Saul Henriquez (saulhdev)](https://github.com/saulhdev)** — Creator & Lead Developer of Neo Launcher / Omega
+  - **[Antonios Hazim (machiav3lli)](https://github.com/machiav3lli)** — Core Contributor & UI/Design
+  - **[Rafael Venâncio (nonaybay)](https://github.com/nonaybay)** — Contributor & F-Droid repository maintainer
+  - **[Lawnchair Team](https://github.com/LawnchairLauncher/lawnchair)** & **[AOSP Launcher3](https://android.googlesource.com/platform/packages/apps/Launcher3/)** — Foundational launcher architecture
+
+---
+
+## 📄 License
+
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See [LICENSE](LICENSE) for details.
