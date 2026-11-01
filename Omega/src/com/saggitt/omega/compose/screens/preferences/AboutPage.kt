@@ -238,21 +238,22 @@ private val links = listOf(
     Link(
         iconResId = R.drawable.ic_github,
         labelResId = R.string.about_source,
-        url = "https://github.com/NeoApplications/Neo-Launcher"
+        url = "https://github.com/Patr10on/Xenci-Launcher"
     ),
     Link(
-        iconResId = R.drawable.ic_channel,
-        labelResId = R.string.about_channel,
-        url = "https://t.me/neo_applications"
-    ),
-    Link(
-        iconResId = R.drawable.ic_community,
-        labelResId = R.string.about_community,
-        url = "https://t.me/neo_launcher"
+        iconResId = R.drawable.ic_github,
+        labelResId = R.string.about_releases,
+        url = "https://github.com/Patr10on/Xenci-Launcher/releases"
     )
 )
 
 private val contributors = listOf(
+    TeamMember(
+        name = R.string.xenci_author,
+        descriptionRes = R.string.xenci_author_role,
+        photoUrl = "https://avatars.githubusercontent.com/u/173803900",
+        webpage = "https://github.com/Patr10on"
+    ),
     TeamMember(
         name = R.string.author,
         descriptionRes = R.string.author_role,

@@ -501,12 +501,16 @@
     <string name="about_channel">Channel</string>
     <string name="about_community">Community</string>
     <string name="about_open_source">Open Source Libraries</string>
-    <string name="about_source_url" translatable="false">https://github.com/otakuhqz/Omega</string>
+    <string name="about_source_url" translatable="false">https://github.com/Patr10on/Xenci-Launcher</string>
+    <string name="about_releases">Releases</string>
+    <string name="about_releases_url" translatable="false">https://github.com/Patr10on/Xenci-Launcher/releases</string>
     <string name="category__about_licenses">License</string>
     <string name="license_gpl" translatable="false">GPLv3+</string>
-    <string name="app_donate_url" translatable="false">https://paypal.me/saulhenriquez</string>
+    <string name="app_donate_url" translatable="false">https://github.com/Patr10on/Xenci-Launcher</string>
+    <string name="xenci_author" translatable="false">Patr10on (Xenci)</string>
+    <string name="xenci_author_role">Lead Developer</string>
     <string name="author" translatable="false">Saul Henriquez</string>
-    <string name="author_role">Developer</string>
+    <string name="author_role">Base Developer</string>
     <string name="contributor1" translatable="false">Antonios Hazim</string>
     <string name="contributor2" translatable="false">Rafael Venancio</string>
     <string name="contributor_role">Contributor</string>

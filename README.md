@@ -1,95 +1,77 @@
-# Neo Launcher <img title="" src="./fastlane/metadata/android/en-US/images/icon.png" align="left" width="64">
+# Xenci Launcher
 
-**Free and Open Source Launcher**
-<br/>
-[![GitHub repo stars](https://img.shields.io/github/stars/NeoApplications/Neo-Launcher?style=flat)](https://github.com/NeoApplications/Neo-Launcher/stargazers)
-[![GitHub License](https://img.shields.io/github/license/NeoApplications/Neo-Launcher)](https://github.com/NeoApplications/Neo-Launcher/blob/A-12/LICENSE)
-[![GitHub All Releases](https://img.shields.io/github/downloads/NeoApplications/Neo-Launcher/total.svg)](https://github.com/NeoApplications/Neo-Launcher/releases/)
-[![GitHub release](https://img.shields.io/github/v/release/NeoApplications/Neo-Launcher?display_name=tag)](https://github.com/NeoApplications/Neo-Launcher/releases/latest)
-[![Small translation badge](https://hosted.weblate.org/widgets/omegalauncher/-/omegalauncher/svg-badge.svg)](https://hosted.weblate.org/engage/omegalauncher/?utm_source=widget)
+**Modern, Fast & Highly Customizable Android Launcher**
 
-[![Neo Applications Banner](neo_banner.png)](https://github.com/NeoApplications)
+[![GitHub repo stars](https://img.shields.io/github/stars/Patr10on/Xenci-Launcher?style=flat)](https://github.com/Patr10on/Xenci-Launcher/stargazers)
+[![GitHub License](https://img.shields.io/github/license/Patr10on/Xenci-Launcher)](https://github.com/Patr10on/Xenci-Launcher/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/Patr10on/Xenci-Launcher?display_name=tag)](https://github.com/Patr10on/Xenci-Launcher/releases/latest)
 
-## *Installation & Download*
+---
 
-Our builds are available on:
+## 🚀 Overview
 
-- **Github**: [Releases](https://github.com/NeoApplications/Neo-Launcher/releases).
+**Xenci Launcher** is an advanced Android launcher based on AOSP / Launcher3 and Neo Launcher, extensively enhanced and maintained by **[Patr10on (Xenci)](https://github.com/Patr10on)**. 
 
-- **F-Droid**: On **[IzzyOnDroid repo](https://apt.izzysoft.de/fdroid/repo?fingerprint=3BF0D6ABFEAE2F401707B6D966BE743BF0EEE49C2561B9BA39073711F628937A)** or **[our own repo (only for test)](https://raw.githubusercontent.com/nonaybay/newomega/master/fdroid/repo)**.
+It combines smooth performance, deep personalization, and next-generation privacy features with full modern Android compatibility (Android 11 to Android 17, 32-bit and 64-bit).
 
-- **Telegram**: [Neo Applications channel](https://t.me/neo_applications).
+---
 
-## *Community*
+## ✨ Features Added by Xenci (Patr10on)
 
-You can join either our [Telegram](https://t.me/neo_launcher) or [Matrix](https://matrix.to/#/#neo-launcher:matrix.org) groups to make suggestions, ask questions, receive news, or just chat.
+- 🔒 **Xiaomi-Style Hidden Apps Vault:**
+  - Fast, intuitive two-finger **Pinch-Out** gesture on the home screen to access hidden applications.
+  - Dedicated private drawer with real-time StackBlur background effect.
+  - Automatic filtering from the main app drawer.
 
-## *App features:*
+- 🛡️ **Biometric & PIN Security Layer:**
+  - Hardware-backed biometric authentication (`androidx.biometric:biometric` Fingerprint / Face Unlock).
+  - Fallback to device PIN/Pattern or custom launcher PIN.
+  - Search and filter bar in hidden and locked app settings.
 
-### **Some of the main features**
+- 🔐 **Per-App Custom App Lock:**
+  - Lock individual sensitive apps with biometrics or a custom PIN before launch.
 
-- Rich themes support.
-- The Dash.
-- Custom search engines.
-- Gestures support.
-- A unique custom-widget.
-- Categories or folders in the app drawer.
-- Icon shapes and packs support.
-- Customize app icons.
-- Desktop grid preference.
-- Hide apps.
-- Vertical Apps Lists.
-- Icons' scaling.
-- Back up and restore preferences.
+- 📱 **iPhone-Style Gesture Navigation Bar (iOS Pill):**
+  - Fully customizable floating gesture bar at the bottom of the screen.
+  - Adjustable thickness, width, corner radius, margin, and haptic feedback.
+  - Configurable gesture triggers: Double Tap, Long Press, Swipe Up, Swipe Up & Hold, Swipe Left/Right.
+  - Ability to hide the system Android navigation bar for an immersive experience.
 
-There's also a [developer's document](DEVDOC.md), where the maintainer and collaborators communicate
-their TODOs and plans.
+- ⚡ **16 KB Page Size Alignment & Zero-Native DEX Engine:**
+  - 100% compliant with Android 15+ 16 KB page size requirements.
+  - Replaced native `.so` dependencies with a pure Kotlin integer-arithmetic `StackBlur` engine and pure Java `org.lsposed.hiddenapibypass`.
+  - Zero `UnsatisfiedLinkError` crashes across all custom ROMs (crDroid, LineageOS, Pixel Experience, etc.).
 
-## *Screenshots*
+- 🎨 **Deep Interface Opacity & Theming:**
+  - Sliders for folder background opacity, search bar opacity, and navigation pill opacity.
+  - Modern Xenci gradient branding and full Android 13+ Material You monochrome dynamic icon support.
 
-<table>
-    <tr>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/omega-11/snapshots/omega1.jpg" alt="" width="256"></td>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/master/snapshots/omega2.jpg" alt="" width="256"></td>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/omega-11/snapshots/omega3.jpg" alt="" width="256"></td>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/master/snapshots/omega4.jpg" alt="" width="256"></td>
-    </tr>
-    <tr>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/omega-11/snapshots/omega5.jpg" alt="" width="256"></td>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/master/snapshots/omega6.jpg" alt="" width="256"></td>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/master/snapshots/omega7.jpg" alt="" width="256"></td>
-        <td><img src="https://raw.githubusercontent.com/otakuhqz/Omega/master/snapshots/omega8.jpg" alt="" width="256"></td>
-    </tr>
-</table>
+---
 
-## *Contributions*
+## 📥 Downloads & Releases
 
-**If you have knowledge in Java or Kotlin you can work on additional features or bugs, and open pull requests. Make sure the code is formatted before make a pull request.**
+Pre-compiled APK builds are available on GitHub Releases:
 
-**You can also contribute to this project by opening issues for bugs or new features.**
+👉 **[Download Latest APK from GitHub Releases](https://github.com/Patr10on/Xenci-Launcher/releases)**
 
-## *Support*
+---
 
-<a href="https://www.paypal.com/paypalme/saulhdev"><img src="https://img.shields.io/badge/Paypal-Donate-blue?style=for-the-badge&logo=paypal" alt="Donate via PayPal"/></a>
+## 🛠️ Building from Source
 
-## *FAQ*
-Is QuickSwitch available?
-No, it's not, and there is no plans to add it.
+### Prerequisites:
+- JDK 17
+- Android SDK (API 33, Build Tools 34.0.0)
 
-## *Credits*
+### Build Command:
+```bash
+./gradlew assembleAospWithQuickstepOmegaDebug
+```
+The resulting APK will be generated at `build/outputs/apk/aospWithQuickstepOmega/debug/`.
 
-#### Thanks to The LawnchairLauncher team for the great work on Lawnchair.
+---
 
-#### Thanks to <a href="https://github.com/machiav3lli">Antonios Hazim</a> for creating the logo and his great contributions in the project.
+## 📜 Credits & License
 
-#### Thanks to <a href="https://github.com/nonaybay">Rafael Venâncio</a> for creating the F-Droid repo.
-
-#### Thanks to Helena Zhang and Toby Fried for the great [Phosphor icons](https://phosphoricons.com), which we use since 0.9.0.
-
-## *Translation*
-
-Translations are handled via Weblate. If want to help, visit <a href="https://hosted.weblate.org/projects/omegalauncher">Hosted Weblate</a>.
-
-#### **Translation stats:** [<img align="right" src="https://hosted.weblate.org/widgets/omegalauncher/-/287x66-white.png" alt="Übersetzungsstatus" />](https://hosted.weblate.org/engage/omegalauncher/?utm_source=widget)
-
-<img src="https://hosted.weblate.org/widgets/omegalauncher/-/multi-red.svg" />
+- Maintained and enhanced by **[Patr10on (Xenci)](https://github.com/Patr10on)**
+- Based on AOSP Launcher3, Lawnchair, and Neo Launcher by Saul Henriquez and contributors.
+- Licensed under the **GNU General Public License v3.0 (GPLv3)**.
