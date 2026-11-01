@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@null"
+        android:src="@android:drawable/ic_lock_lock" />
+
+    <TextView
+        android:id="@+id/set_pin_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Özel PIN Belirle"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="Uygulamaları kilitlemek için 4-8 haneli bir PIN girin."
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/set_pin_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="Yeni PIN (4-8 haneli)"
+        android:imeOptions="actionNext"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:letterSpacing="0.3"
+        android:maxLength="8"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/set_pin_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="PIN'i Tekrar Girin"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="numberPassword"
+        android:letterSpacing="0.3"
+        android:maxLength="8"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/set_pin_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="PIN kodları eşleşmiyor!"
+        android:textColor="#E53935"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+</LinearLayout>
