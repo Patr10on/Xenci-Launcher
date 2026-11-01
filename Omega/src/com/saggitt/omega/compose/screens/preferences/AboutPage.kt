@@ -149,6 +149,13 @@ fun AboutPage() {
                 )
 
                 Text(
+                    text = stringResource(id = R.string.about_base_info),
+                    fontWeight = FontWeight.Medium,
+                    fontSize = 13.sp,
+                    color = MaterialTheme.colorScheme.secondary
+                )
+
+                Text(
                     text = stringResource(id = R.string.app_version) + ": "
                             + BuildConfig.VERSION_NAME + " ( Build " + BuildConfig.VERSION_CODE + " )",
                     fontWeight = FontWeight.Normal,

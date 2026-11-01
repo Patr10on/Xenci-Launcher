@@ -1,7 +1,8 @@
 # Xenci Launcher
 
-**Modern, Fast & Highly Customizable Android Launcher**
+**Modern, Fast & Highly Customizable Android Launcher (Based on Neo Launcher & Launcher3)**
 
+[![Base: Neo Launcher](https://img.shields.io/badge/Based%20On-Neo%20Launcher-blue?style=flat&logo=android)](https://github.com/NeoApplications/Neo-Launcher)
 [![GitHub repo stars](https://img.shields.io/github/stars/Patr10on/Xenci-Launcher?style=flat)](https://github.com/Patr10on/Xenci-Launcher/stargazers)
 [![GitHub License](https://img.shields.io/github/license/Patr10on/Xenci-Launcher)](https://github.com/Patr10on/Xenci-Launcher/blob/main/LICENSE)
 [![GitHub release](https://img.shields.io/github/v/release/Patr10on/Xenci-Launcher?display_name=tag)](https://github.com/Patr10on/Xenci-Launcher/releases/latest)
@@ -10,9 +11,9 @@
 
 ## 🚀 Overview
 
-**Xenci Launcher** is an advanced Android launcher based on AOSP / Launcher3 and Neo Launcher, extensively enhanced and maintained by **[Patr10on (Xenci)](https://github.com/Patr10on)**. 
+> 📱 **Fork & Heritage:** **Xenci Launcher** is an enhanced, feature-rich edition built directly on top of the open-source **[Neo Launcher](https://github.com/NeoApplications/Neo-Launcher)** and AOSP **Launcher3** codebases, developed and maintained by **[Patr10on (Xenci)](https://github.com/Patr10on)**.
 
-It combines smooth performance, deep personalization, and next-generation privacy features with full modern Android compatibility (Android 11 to Android 17, 32-bit and 64-bit).
+While preserving Neo Launcher\'s lightweight, clean design and extensive customizability, **Xenci Launcher** introduces brand-new privacy vaults, biometric app locking, iOS-style gesture navigation, and complete 16 KB page-size compatibility for Android 11 through Android 17.
 
 ---
 
